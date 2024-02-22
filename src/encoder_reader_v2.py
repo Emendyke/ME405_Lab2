@@ -69,12 +69,12 @@ class Encoder:
         
         
 
-if __name__ == "__main__"
+if __name__ == "__main__":
         
-        """!
-        The test code creates 2 encoder instances, stores initial encoder value, and
-        subsequently tests the methods "read()" and "zero()"
-        from the Encoder class
+    """!
+    The test code creates 2 encoder instances, stores initial encoder value, and
+    subsequently tests the methods "read()" and "zero()"
+    from the Encoder class
         """
     encoder1 = Encoder(4, pyb.Pin.board.PB6, pyb.Pin.board.PB7)  # Create encoder 1 instance
     encoder2 = Encoder(8, pyb.Pin.board.PC6, pyb.Pin.board.PC7)  # Create encoder 2 instance
